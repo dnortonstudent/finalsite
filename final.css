@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(90deg,#723362,#9d223c);
+    overflow: hidden;
+}
+.special {
+    text-align: center;
+    color: linear-gradient(90deg,white, orange);
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 50pt;
+    
+    
+}
+
+.special2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20pt
+}
+
+.itemtext {
+    font-family: 'Inconsolata', monospace;
+    font-size: 15pt;
+    color: white;
+}
+
+.itemdesc {
+    font-family: 'Inconsolata', monospace;
+    font-size: 15pt;
+}
