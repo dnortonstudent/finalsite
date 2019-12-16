@@ -31,6 +31,7 @@ function ready () {
         if (chosenlevel.value == "mythical") {
             suffix.innerHTML = findrandommythical();
         }
+        itemdesc.innerHTML = "Forged by " + findforgername() + ", the " + findforgeradj() + " " + findforgerrace() + ", this " + findweaponcolor() + " weapon " + findfeature(); + "."
 
 
     }
@@ -420,15 +421,114 @@ function findrandomsuffix() {
 
 function findforgername() {
     randnum = Math.floor(Math.random() * Math.floor(6));
+    if ((randnum % 6) == 0) {
+        return "Edward";
+    }
+    if ((randnum % 6) == 1) {
+        return "Dwight";
+    }
+    if ((randnum % 6) == 2) {
+        return "Richard";
+    }
+    if ((randnum % 6) == 3) {
+        return "Ralph";
+    }
+    if ((randnum % 6) == 4) {
+        return "Samuel";
+    }
+    if ((randnum % 6) == 5) {
+        return "Franklin";
+    }
 }
 
-function findforgeradj
+function findforgeradj() {
+    randnum = Math.floor(Math.random() * Math.floor(6));
+    if ((randnum % 6) == 0) {
+        return "Hairy";
+    }
+    if ((randnum % 6) == 1) {
+        return "Strong";
+    }
+    if ((randnum % 6) == 2) {
+        return "Genius";
+    }
+    if ((randnum % 6) == 3) {
+        return "Crippled";
+    }
+    if ((randnum % 6) == 4) {
+        return "Ancient";
+    }
+    if ((randnum % 6) == 5) {
+        return "Famous";
+    }
+}
 
-function findforgerrace
+function findforgerrace() {
+    randnum = Math.floor(Math.random() * Math.floor(6));
+    if ((randnum % 6) == 0) {
+        return "Elf";
+    }
+    if ((randnum % 6) == 1) {
+        return "Dwarf";
+    }
+    if ((randnum % 6) == 2) {
+        return "Goblin";
+    }
+    if ((randnum % 6) == 3) {
+        return "Mage";
+    }
+    if ((randnum % 6) == 4) {
+        return "Human";
+    }
+    if ((randnum % 6) == 5) {
+        return "Giant";
+    }
+}
 
-function findweaponcolor
+function findweaponcolor() {
+    randnum = Math.floor(Math.random() * Math.floor(6));
+    if ((randnum % 6) == 0) {
+        return "silver";
+    }
+    if ((randnum % 6) == 1) {
+        return "gold";
+    }
+    if ((randnum % 6) == 2) {
+        return "black";
+    }
+    if ((randnum % 6) == 3) {
+        return "red";
+    }
+    if ((randnum % 6) == 4) {
+        return "bronze";
+    }
+    if ((randnum % 6) == 5) {
+        return "copper";
+    }
+}
 
-function findfeature
+function findfeature() {
+    randnum = Math.floor(Math.random() * Math.floor(6));
+    if ((randnum % 6) == 0) {
+        return "has hundreds of tiny diamonds in its handle";
+    }
+    if ((randnum % 6) == 1) {
+        return "glows faintly with pale light";
+    }
+    if ((randnum % 6) == 2) {
+        return "speaks with a voice only its weilder can hear";
+    }
+    if ((randnum % 6) == 3) {
+        return "slowly drives its owner into madness";
+    }
+    if ((randnum % 6) == 4) {
+        return "feels as cold as ice";
+    }
+    if ((randnum % 6) == 5) {
+        return "can cut through stone";
+    }
+}
+
 
 
 
